@@ -49,7 +49,7 @@ namespace ccc
 	enum class ErrorSeverity
 	{
 		ERROR,
-		WARNING
+		WARNING,
 	};
 
 	typedef void (*CustomErrorCallback)(const Error& error, ErrorSeverity severity);
